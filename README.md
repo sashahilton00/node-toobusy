@@ -111,6 +111,8 @@ The default of 70 should get you started.
 As of `0.5.0`, `toobusy-js` exposes an `onLag` method. Pass it a callback to be notified when
 a slow event loop tick has been detected.
 
+An `onEasing` method is also exposed, allowing one to be notified when the server lag appears to be easing.
+
 ## references
 
 > There is nothing new under the sun. (Ecclesiastes 1:9)
